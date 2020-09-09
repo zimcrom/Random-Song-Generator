@@ -5,17 +5,19 @@ let startBtn = document.getElementById("start");
 console.log("There are " + song.length + " songs");
 console.log("There are " + style.length + " styles");
 
-// Generate random numbers
-let randomSongNumber = Math.floor(Math.random() * 42);
-let randomStyleNumber = Math.floor(Math.random() * 28);
-
 function generateNew() {
+    // Generate random numbers
+    let randomSongNumber = Math.floor(Math.random() * 41);
+    let randomStyleNumber = Math.floor(Math.random() * 27);
+
+    // Grab random song and style from array
     let getSong = song[randomSongNumber];
     let getStyle = style[randomStyleNumber];
 
+    // Display on page
     document.getElementById('songDisplay').innerHTML = getSong;
     document.getElementById('styleDisplay').innerHTML = getStyle;
-}
+};
 
 // Generate new selection
 startBtn.onclick = generateNew;
