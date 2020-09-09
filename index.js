@@ -5,14 +5,17 @@ let startBtn = document.getElementById("start");
 console.log("There are " + song.length + " songs");
 console.log("There are " + style.length + " styles");
 
-// // Generate random numbers
-// let randomSongNumber = 
-// let randomStyleNumber = 
+// Generate random numbers
+let randomSongNumber = Math.floor(Math.random() * 42);
+let randomStyleNumber = Math.floor(Math.random() * 28);
 
-// function generateNew() {
-// let getSong = song[randomSongNumber];
-// let getStyle = style[randomStyleNumber];
-// }
+function generateNew() {
+    let getSong = song[randomSongNumber];
+    let getStyle = style[randomStyleNumber];
 
-// // Generate new selection
-// startBtn.onclick = generateNew;
+    document.getElementById('songDisplay').innerHTML = getSong;
+    document.getElementById('styleDisplay').innerHTML = getStyle;
+}
+
+// Generate new selection
+startBtn.onclick = generateNew;
