@@ -21,7 +21,7 @@ const song = [
 "'Can't Help Falling in Love' by Elvis Presley",
 "'I'm Yours' by Jason Mraz",
 "'1000 Miles' by Vanessa Carlton",
-"'Sweet Pea' by Amos Lee",
+// "'Sweet Pea' by Amos Lee",
 "'Sweet Dreams' by Eurythmics",
 "'Here Comes the Sun' by The Beatles",
 "'Ain't No Sunshine' by Bill Withers",
@@ -47,11 +47,11 @@ const song = [
 "'Yesterday' by The Beatles",
 "'Let it Be' by The Beatles",
 "'Welcome to Paradise' by Green Day",
-"'Break my Stride' by Matthew Wilder",
+// "'Break my Stride' by Matthew Wilder",
 "'Blinding Lights' by The Weeknd",
 // "'Adia' by Sarah McLachlan",
 "'idontwannabeyouanymore' by Billie Eilish",
-"'Karma Police' by Radiohead",
+// "'Karma Police' by Radiohead",
 "'Fast Car' by Tracy Chapman",
 "'Come to my Window' by Melissa Etheridge",
 "'Babylon' by David Gray",
@@ -59,7 +59,12 @@ const song = [
 "'Where I Stood' by Missy Higgins",
 "'Closer' by Ne-Yo",
 "'Sign of the Times' by Harry Styles",
-"'White Flag' by Bishop Briggs"
+"'White Flag' by Bishop Briggs",
+"'Heart-Shaped Box' by Nirvana",
+"'Tears in Heaven' by Eric Clapton",
+"'The Story' by Brandi Carlisle",
+"'Lies' by Marina and the Diamonds",
+"'Wild Night' by John Mellencamp"
 
 ];
 
@@ -81,7 +86,7 @@ const style = [
 "POV:  You're my crush and I'm singing this song to tell you how I feel",
 "David Armand",
 "A John Mulaney bit",
-"Tom DeLonge",
+// "Tom DeLonge",
 "The lead singer of the A Capella group who just riffs constantly to impress everyone",
 "Can't tell which octave is best for this song and jumps back and forth to figure it out",
 "Mariah Carey - NYE 2016",
@@ -91,10 +96,17 @@ const style = [
 "Singing in the shower",
 "Lullaby",
 "Postmodern Jukebox",
-"A parody about the subject of your choice",
+// "A parody about the subject of your choice",
 "Sing it regular, but while playing the hardest level of a game",
-"Serenade one of the cats",
+// "Serenade one of the cats",
 "I walk into my roommate's room and sing it while he's trying to sleep",
 "Use household objects for the percussion",
 "Yourself"
 ];
+
+// Combinations
+// 'Lovesong' by the Cure --- Cher
+// 'Adia' by Sarah McLachlan --- Spoken word/Slam poetry
+// 'Sweet Pea' by Amos Lee --- A parody about the subject of your choice
+// 'Karma Police' by Radiohead --- Serenade one of the cats
+// 'Break my Stride' by Matthew Wilder --- Tom DeLonge
