@@ -6,8 +6,8 @@ const song = [
 "'When Somebody Loved Me' by Sarah McLachlan",
 "'Billie Jean' by Michael Jackson",
 "'The Middle' by Jimmy Eat World",
-"'All the Small Things' by Blink-182",
-"'Dream On' by Aerosmith",
+// "'All the Small Things' by Blink-182",
+// "'Dream On' by Aerosmith",
 "'Renegade' by Styx",
 "'Maneater' by Hall & Oates",
 "'Thank You' by Dido",
@@ -22,12 +22,12 @@ const song = [
 "'I'm Yours' by Jason Mraz",
 "'1000 Miles' by Vanessa Carlton",
 // "'Sweet Pea' by Amos Lee",
-"'Sweet Dreams' by Eurythmics",
+// "'Sweet Dreams' by Eurythmics",
 "'Here Comes the Sun' by The Beatles",
-"'Ain't No Sunshine' by Bill Withers",
-"'Hard to Handle' by The Black Crowes",
+// "'Ain't No Sunshine' by Bill Withers",
+// "'Hard to Handle' by The Black Crowes",
 "'Tennessee Whiskey' by Chris Stapleton",
-"'A Thousand Years' by Christina Perri",
+// "'A Thousand Years' by Christina Perri",
 "'The Scientist' by Coldplay",
 "'Mr. Jones' by Counting Crows",
 "'Babylon' by David Gray",
@@ -48,19 +48,19 @@ const song = [
 "'Let it Be' by The Beatles",
 "'Welcome to Paradise' by Green Day",
 // "'Break my Stride' by Matthew Wilder",
-"'Blinding Lights' by The Weeknd",
+// "'Blinding Lights' by The Weeknd",
 // "'Adia' by Sarah McLachlan",
 "'idontwannabeyouanymore' by Billie Eilish",
 // "'Karma Police' by Radiohead",
-"'Fast Car' by Tracy Chapman",
+// "'Fast Car' by Tracy Chapman",
 "'Come to my Window' by Melissa Etheridge",
 "'Babylon' by David Gray",
-"'Chasing Pavements' by Adele",
+// "'Chasing Pavements' by Adele",
 "'Where I Stood' by Missy Higgins",
-"'Closer' by Ne-Yo",
+// "'Closer' by Ne-Yo",
 "'Sign of the Times' by Harry Styles",
 "'White Flag' by Bishop Briggs",
-"'Heart-Shaped Box' by Nirvana",
+// "'Heart-Shaped Box' by Nirvana",
 "'Tears in Heaven' by Eric Clapton",
 "'The Story' by Brandi Carlisle",
 "'Lies' by Marina and the Diamonds",
@@ -74,7 +74,7 @@ const style = [
 "feat. DJ Khaled",
 "The guy with the guitar at a party, but you actually take song requests",
 // "Spoken word/Slam poetry",
-"Adele",
+// "Adele",
 "Overenthusiastic theater kid",
 "Duet",
 "Original Artist",
@@ -82,26 +82,27 @@ const style = [
 "Shakira",
 "Pearl Jam",
 "Include a vine",
-"Drunk girl at karaoke night",
+// "Drunk girl at karaoke night",
 "POV:  You're my crush and I'm singing this song to tell you how I feel",
-"David Armand",
+// "David Armand",
 "A John Mulaney bit",
 // "Tom DeLonge",
 "The lead singer of the A Capella group who just riffs constantly to impress everyone",
-"Can't tell which octave is best for this song and jumps back and forth to figure it out",
-"Mariah Carey - NYE 2016",
+// "Can't tell which octave is best for this song and jumps back and forth to figure it out",
+// "Mariah Carey - NYE 2016",
 "You're hooking up with your accompanist and doing a bad job of hiding it",
-"You and your accompanist broke up last night, but the show must go on",
+// "You and your accompanist broke up last night, but the show must go on",
 "Jammin' out in the car",
 "Singing in the shower",
-"Lullaby",
+// "Lullaby",
 "Postmodern Jukebox",
 // "A parody about the subject of your choice",
 "Sing it regular, but while playing the hardest level of a game",
 // "Serenade one of the cats",
-"I walk into my roommate's room and sing it while he's trying to sleep",
-"Use household objects for the percussion",
-"Yourself"
+// "I walk into my roommate's room and sing it while he's trying to sleep",
+// "Use household objects for the percussion",
+"Yourself",
+// "Include the names of 5 objects from IKEA"
 ];
 
 // Combinations
@@ -110,3 +111,14 @@ const style = [
 // 'Sweet Pea' by Amos Lee --- A parody about the subject of your choice
 // 'Karma Police' by Radiohead --- Serenade one of the cats
 // 'Break my Stride' by Matthew Wilder --- Tom DeLonge
+// ----- 'Ain't No Sunshine' by Bill Withers --- Can't tell which octave is best for this song and jumps back and forth to figure it out
+// 'Chasing Pavements' by Adele --- David Armand
+// 'Fast Car' by Tracy Chapman --- Lullaby
+// 'All the Small Things' by Blink-182" --- Adele
+// 'Heart-Shaped Box' by Nirvana --- Drunk girl at karaoke night
+// 'Blinding Lights' by The Weeknd --- Mariah Carey - NYE 2016
+// 'A Thousand Years' by Christina Perri --- You and your accompanist broke up last night, but the show must go on
+// 'Closer' by Ne-Yo --- I walk into my roommate's room and sing it while he's trying to sleep
+// 'Dream On' by Aerosmith --- Yourself
+// 'Hard to Handle' by The Black Crowes --- Include the names of 5 objects from IKEA
+// 'Sweet Dreams' by Eurythmics --- Use household objects for the percussion

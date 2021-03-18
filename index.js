@@ -7,8 +7,8 @@ console.log("There are " + style.length + " styles");
 
 function generateNew() {
     // Generate random numbers
-    let randomSongNumber = Math.floor(Math.random() * 60);
-    let randomStyleNumber = Math.floor(Math.random() * 29);
+    let randomSongNumber = Math.floor(Math.random() * 51);
+    let randomStyleNumber = Math.floor(Math.random() * 20);
 
     // Grab random song and style from array
     let getSong = song[randomSongNumber];
